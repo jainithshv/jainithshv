@@ -1,0 +1,93 @@
+ SeatingArrangement.css
+.seating-arrangement {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls label {
+  margin-right: 20px;
+}
+
+.classroom {
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.header-template {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-template h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.header-template h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.seating-grid {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.seating-grid th, .seating-grid td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.seating-grid th {
+  background-color: #f2f2f2;
+}
+
+.seating-grid tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.register-numbers {
+  font-weight: bold;
+}
+
+.year-info {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0 100px;
+}
+
+.powered-by {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #666;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
